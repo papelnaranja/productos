@@ -1,0 +1,14 @@
+// Place all the styles related to the categories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.btn-link-danger {
+    color:red;
+    &:hover, &:active, &focus {
+        color: darken(red, 10%);
+    }
+}
+.section-form {
+    padding: 2em;
+    background-color: #efefef;
+}
